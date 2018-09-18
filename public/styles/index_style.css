@@ -1,39 +1,3 @@
-h1 {
-  color: white;
-  text-align: center;
-  background-color: black;
-  margin-bottom: auto;
-}
-
-nav {
-  background-color: black;
-  text-align: center;
-}
-a {
-  color: white;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-top: 50px;
-  border-radius: 50%;
-}
-
-h2 {
-  text-align: center;
-  font-size: 69px;
-  background-color: aqua;
-  font-style: italic;
-  color: white;
-  margin: 10px 45px 10px 45px;
-}
-
-h3{
-  margin-left: 70%;
-}
 body {
   background: url(https://www.nasa.gov/sites/default/files/images/649694main_pia15417-43_full.jpg);
   max-width: 100%;
@@ -43,6 +7,43 @@ body {
   background-position: center;
 }
 
-.nav-link {
-  text-decoration: none;
+h1{
+  color: goldenrod;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  font-size: 69px;
+  background-color: goldenrod;
+  font-style: italic;
+  color: white;
+  margin: 10px 45px 10px 45px;
+}
+
+a{
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.8)
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+.profile_link{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10%;
 }
