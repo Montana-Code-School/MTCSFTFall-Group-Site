@@ -1,3 +1,48 @@
 h1 {
-  color: salmon;
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin-bottom: auto;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+}
+a {
+  color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 50px;
+  border-radius: 50%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 69px;
+  background-color: aqua;
+  font-style: italic;
+  color: white;
+  margin: 10px 45px 10px 45px;
+}
+
+h3{
+  margin-left: 70%;
+}
+body {
+  background: url(https://www.nasa.gov/sites/default/files/images/649694main_pia15417-43_full.jpg);
+  max-width: 100%;
+  height: auto;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-link {
+  text-decoration: none;
 }
