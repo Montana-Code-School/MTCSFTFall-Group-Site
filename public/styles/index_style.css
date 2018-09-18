@@ -1,13 +1,35 @@
 body {
-  background-image: url("../images/SpaceFlakes.jpg");
-  text-align: center;
-  background-size: cover;
+  background: url(https://www.nasa.gov/sites/default/files/images/649694main_pia15417-43_full.jpg);
+  max-width: 100%;
+  height: auto;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-}
 h1{
-  color: #B388FF;
-  text-decoration: underline;
+  color: goldenrod;
+  text-align: center;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  font-size: 69px;
+  background-color: goldenrod;
+  font-style: italic;
+  color: white;
+  margin: 10px 45px 10px 45px;
+}
+
 a{
   color: white;
   font-size: 30px;
