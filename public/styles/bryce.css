@@ -37,3 +37,6 @@ img {
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+#myBtn {
+  align-content: center;
+}
