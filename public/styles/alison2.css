@@ -1,0 +1,12 @@
+body {
+  background: url(../images/ralph-fiennes-in-any-harry-potter.jpg);
+  background-size: cover;
+}
+a {
+  font-family: 'Julee', cursive;
+  font-size: 100px;
+  color: #DC143C;
+  text-align: center;
+  text-shadow: 4px 4px black;
+  text-decoration: none;
+}
