@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background: url(../images/grassbg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.shep-image {
+  border-radius: 20%
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px 80px 0px 80px;
+}
+
+.description {
+  margin: 10px 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5%;
+}
+
+.stubborn-table {
+  margin-right: 40px;
+  margin-left: -40px
+}
