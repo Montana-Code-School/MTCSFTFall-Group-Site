@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  background-color: orange;
+
+}
+html {
+  background: url(https://snowbrains.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-26-at-9.41.27-PM.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h2 {
+  text-align: center;
+  background-color: indigo;
+  font-size: 45px
+}
+p {
+  text-align: justify;
+  font-family: sans-serif;
+  background-color:yellow
+}
+.pic {
+  border-style: dotted;
+  border-width: medium;
+  border-color: blue
+}
+img {
+  width: 50%;
+  height: 50%
+  height: auto;
+  align-content: center;
+}
+.stubborn {
+  -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(1800deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
