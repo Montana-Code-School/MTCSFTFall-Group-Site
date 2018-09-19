@@ -54,3 +54,7 @@ p, li {
   list-style: none;
   width: auto;
 }
+
+button {
+  background-color: gray;
+}
