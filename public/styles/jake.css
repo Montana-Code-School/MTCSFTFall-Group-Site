@@ -15,16 +15,32 @@ body > div {
   z-index: -5;
 }
 
-h2 {
-  height: 150px;
-  display: inline;
+.keys {
+  border: none;
+}
 
+.key {
+  color: lightgrey;
+  width: 55px;
+  height: 55px;
+  font-size: 30px;
+  display: inline-block;
+  border-style: double;
+  background-color: #325C74;
+
+}
+
+#top {
+  margin-top: 150px;
 }
 
 iframe {
   display: block;
   margin: 0 auto;
   padding-bottom: 30px;
+  height: 315px;
+  width: 560px;
+  position: relative;
 }
 
 h1 {
@@ -32,9 +48,7 @@ h1 {
   color: lightgrey;
   height: auto;
   font-family: 'Shadows Into Light';
-  margin-right: 200px auto;
-  margin-top: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
   text-indent: 50px;
   position: sticky;
   top: 0;
@@ -43,8 +57,18 @@ h1 {
 
 div > div {
   margin: auto;
-  width: 50%;
+  margin-bottom: 10px;
+  width: 70%;
   text-align: center;
+  background-color: black;
+  z-index: 1;
+  border: 1px solid grey;
+  opacity: .8;
+  transition: border 1s;
+}
+
+div > div:hover {
+  border-color: #325C74	;
 }
 
 p, li {
@@ -53,6 +77,12 @@ p, li {
   font-family: 'Shadows Into Light';
   list-style: none;
   width: auto;
+  padding: 0px 10px 0px 10px;
+}
+
+footer, a {
+  text-align: center;
+  color: lightgrey;
 }
 
 button {
