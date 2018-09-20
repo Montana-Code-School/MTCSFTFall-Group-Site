@@ -4,18 +4,27 @@
     <meta charset="utf-8">
     <title>Griffyndor Common Room</title>
     <link rel="stylesheet" href="/styles/alison.css">
+    <link rel="stylesheet" href="/javaScript/alison.js">
     <link href="https://fonts.googleapis.com/css?family=Tangerine:700" rel="stylesheet">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
   </head>
   <body>
-    <h1>Welcome to the Gryffindor Common Room</h1>
-    <img class="logo" src="../images/a griffdoff.jpg"></img>
+    <h1>Welcome to the Hogwarts</h1>
+    <img id="logo" src="../images/Hogwarts Crest.jpg"></img>
     <div id="music">
       <audio autoplay loop>
         <source src="../images/music.mp3/45 - Harry Potter Theme.mp3" type="audio/mpeg">
         You're browser does not support the audio element
       </audio>
     </div>
-    <a href="alison2.html">Click to Enter</a>
+    <a class="link" href="alison2.html">Click Below to Choose House or Here to Enter</a>
+    <div id ="parentBtn">
+      <button id="gBtn">Griffyndor</button>
+      <button id="hBtn">Hufflepuff</button>
+      <button id="rBtn">Ravenclaw</button>
+      <button id="sBtn">Slytherin</button>
+    </div>
+    <script src="../javaScript/alison.js" charset="utf-8"></script>
   </body>
 
 </html>

@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js server.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,11 @@
   "dependencies": {
     "express": "^4.16.3",
     "materialize-css": "^1.0.0-rc.2",
-    "path": "^0.12.7"
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "webpack": "^4.19.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
   }
 }
