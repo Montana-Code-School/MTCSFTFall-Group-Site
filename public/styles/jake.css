@@ -27,7 +27,7 @@ body > div {
   display: inline-block;
   border-style: double;
   background-color: #325C74;
-
+  transition: all 0.07s;
 }
 
 #top {
