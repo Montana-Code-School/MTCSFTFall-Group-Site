@@ -1,0 +1,23 @@
+title
+{
+  font-size: 600px;
+  font-color: darkblue;
+  align: center;
+}
+
+table
+{
+  background-color: lightorange;
+  text-color: darkblue;
+  text: bold;
+  text-size: 600px;
+  text-align: center;
+  table-border: black;
+}
+
+img
+{
+  image-orientation: center;
+  image-resize: 50%;
+
+}
