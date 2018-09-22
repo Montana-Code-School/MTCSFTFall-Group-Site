@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 600px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 200%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<h1>The Denver Broncos</h1><
+<h3>Hover over the image below to learn each fact about John Elway</h3>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="http://www.clker.com/cliparts/0/c/3/0/1516801387745527844denver-bronco-logo-clipart.med.png" alt="Denver Bronco Logo" style="width:600px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Denver Broncos</h2>
+      <p>John Elway #7 Tribute</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="http://www.profootballhof.com/assets/1/26/DimRelated/Elway-John-3.jpg?52923" alt="John Elway Biography" style="width:600px;height:400px"">
+    </div>
+    <div class="flip-box-back">
+      <h2>Biography</h2>
+      <p>
+        <ul>
+          <li>Born June 28. 1960 in Port Angeles, Washington</li>
+          <li>Attended Stanford University</li>
+          <li>Played Quarterback for the Broncos for 16 years (1983 - 1999)</li>
+          <li>Drafted in the first round, first pick in 1983</li>
+          <li>Wore Jersey #7 for Denver</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="http://l1.yimg.com/bt/api/res/1.2/XkNBsjUecM_Eo0ym2xb4ug--/YXBwaWQ9eW5ld3M7cT04NTt3PTMxMA--/http://l.yimg.com/j/assets/ipt/mlb_broncos_elway_super_bowl.jpg" alt="John Elway NFL Records" style="width:600px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Elway's NFL Records</h2>
+      <p>
+        <ul>
+          <li>Most wins by a starting Quarterback </li>
+          <li>Second highest passing percentage in NFL History</li>
+          <li>Started in 5 different Super Bowls</li>
+          <li>One of two players in NFL history to score a rushing touchdown in 4 different Super Bowls. The other player was Thurman Thomas.</li>
+          <li>Elway started in 5 different Super Bowls. This was a record until Super Bowl XLIX.</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="https://images.psacard.com/s3/cu-psa/autographfacts/john-elway-signed-photo-1454.jpg?h=1000" alt="Elway's Career Achievements" style="width:600px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Elway's Career Achievements</h2>
+      <p>
+        <ul>
+          <li>Won Super Bowl XXXII vs. Green Bay Packers<br/>31-24</li>
+          <li>Won Super Bowl XXXIII vs. Atlanta Falcons<br/>34-19</li>
+          <li>Voted MVP of Super Bowl XXXIII, which was the last game Elway played in as he retired after the 1998-1999 season was over.</li>
+          <li>Led the Broncos to a notable 6 AFC Championship Games</li>
+          <li>Led the Broncos to 5 Super Bowls. They won back to back Super Bowls in 1998 and 1999.</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="https://www.gannett-cdn.com/-mm-/bbca1b82c540dc62722ef644ca82e035eb095c2b/c=278-0-4651-3280/local/-/media/2018/08/17/USATODAY/usatsports/john-elway.jpg?width=534&height=401&fit=crop" alt="Elway Post-Retirement" style="width:600px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Elway Post-Retirement</h2>
+      <p>
+        John Elway is now the general manager and executive vice president of football operations for the Denver Broncos.Since Elway took the job of the general manager of the Broncos the team has achieved the following accomplishments:
+      </p>
+        <ul>
+          <li>Won Super Bowl XXXII vs. Green Bay Packers<br/>31-24</li>
+          <li>Won Super Bowl XXXIII vs. Atlanta Falcons<br/>34-19</li>
+          <li>Voted MVP of Super Bowl XXXIII, which was the last game Elway played in as he retired after the 1998-1999 season was over.</li>
+          <li>Led the Broncos to a notable 6 AFC Championship Games</li>
+          <li>Led the Broncos to 5 Super Bowls. They won back to back Super Bowls in 1998 and 1999.</li>
+          <li>Inducted into the College Football Hall of Fame in 2004</li>
+          <li>Enterpreneured a business called “Elways Motors”; a car dealership in Denver.</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="https://www.elwaydealers.com/assets/misc/15628/1020485.jpg" alt =“picture of Elway Motors”" alt="Elway Motors Picture" style="width:600px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Elway Motors</h2>
+      <p class="c">
+        THis is a photo of John Elway's Car Dealership.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src=“http://www.profootballhof.com/assets/1/26/Elway-John-5.jpg?52924“ alt=“Elway NFL Hall of Fame” style="width:600px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Elway getting inducted to the NFL Hall of Fame</h2>
+    </div>
+  </div>
+</div>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src=“https://upload.wikimedia.org/wikipedia/commons/0/06/Jack_%26_John_Elway_plaque%2C_SJ_Sports_Hall_of_Fame.JPG“ alt= “Elway Bronze Bust” style="width:300px;height:200px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Elway and his Father's Bronze Bust</h2>
+    </div>
+  </div>
+</div>
+</body>
+</html>
