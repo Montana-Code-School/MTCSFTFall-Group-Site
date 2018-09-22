@@ -1,0 +1,103 @@
+table {
+  border-color: black;
+  border: bold;
+  width: 100px; height: 200px;
+  text: black
+  text: bold;
+  font-size: 200%;
+  font-style: Serif;
+  border: "2";
+  background-color: blue;
+  }
+
+
+  /* div.a {
+    font-size: 15px;
+}
+
+div.b {
+    font-size: large;
+}
+
+div.c {
+    font-size: 150%;
+}
+</style>
+</head>
+<body>
+<h1>The font-size Property</h1>
+
+<div class="a">This is some text.</div>
+
+<div class="b">This is some text.</div>
+
+<div class="c">This is some text.</div> */
+
+/* CSS Syntax:  font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;
+} */
+
+/* CSS row 1, column 1 */
+p.d
+{
+  font-size: 200%;
+  td colspan="2";
+}
+
+/*CSS for row 2 column 1 */
+p.a
+{
+  font: 200%;
+}
+
+/*CSS for row 1 column 1 */
+p.b
+{
+  font: 200%;
+}
+
+/* CSS row 3, column 1 */
+p.c
+{
+  font: 200%;
+}
+/* CSS TEXT INPUT BUTTONS row 2 column 2, <div>FIELD 1, <div>Field 2*/
+.div1 .div2
+{
+  background-color: orange;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  font-size: 150%;
+  font-color: blue;
+  text: bold;
+}
+
+/* CSS CALCULATE BUTTON, row 2, column 2 */
+.tr2 .td2
+{
+  background-color: orange;
+  text-color: black;
+  text-size: 150%;
+  text: bold;
+}
+
+/* CSS row 3, column 1 */
+.tr3 .td1
+{
+  background-color: lightblue;
+  text: bold;
+  text-color: black;
+  text-size: 20px;
+  font: Serif;
+  text-align: center;
+}
+
+/* CSS column 2, row 3  ANSWER TEXT-FIELD */
+.tr2 .td3
+{
+  background-color: orange;
+  text-color: darkblue;
+  text-size: 30px;
+  text: bold;
+  font: Arial;
+}
