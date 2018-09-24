@@ -1,4 +1,4 @@
-funct doFoil(a, b)
+function doFoil(a, b)
 
 var a = a;
 var b = b;
